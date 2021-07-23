@@ -8,8 +8,8 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1"
 
+# gem "jekyll", "~> 4.1"
 gem "jekyll-theme-hydejack", "~> 9.1"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
@@ -27,7 +27,10 @@ gem "jekyll-theme-hydejack", "~> 9.1"
 gem "kramdown-math-katex"
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
+gem "kramdown"
 gem "duktape"
+gem "liquid"
+
 
 group :jekyll_plugins do
   gem "jekyll-default-layout"
@@ -41,7 +44,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
-
+  gem 'github-pages'
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
