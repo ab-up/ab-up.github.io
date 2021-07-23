@@ -27,7 +27,7 @@ gem "jekyll-theme-hydejack", "~> 9.1"
 gem "kramdown-math-katex"
 
 # A JavaScript runtime for ruby that helps with running the katex gem above.
-gem "kramdown"
+gem "kramdown", '2.3.1'
 gem "duktape"
 gem "liquid"
 gem 'github-pages', "120"
