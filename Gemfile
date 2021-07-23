@@ -30,7 +30,7 @@ gem "kramdown-math-katex"
 gem "kramdown", '2.3.1'
 gem "duktape"
 gem "liquid"
-gem 'github-pages', "120"
+gem 'github-pages', "215"
 
 
 group :jekyll_plugins do
