@@ -30,6 +30,7 @@ gem "kramdown-math-katex"
 gem "kramdown"
 gem "duktape"
 gem "liquid"
+gem 'github-pages', "120"
 
 
 group :jekyll_plugins do
@@ -44,7 +45,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
-  gem 'github-pages'
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
   gem "jekyll-compose"
